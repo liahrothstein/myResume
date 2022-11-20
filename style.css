@@ -1,0 +1,111 @@
+body {
+    margin: 0;
+}
+
+div.background {
+    background: #2251b2;
+    height: 437px;
+    border-bottom: 1px black solid;
+}
+
+div.main {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    width: 80.35%;
+    padding: 140px;
+    padding-top: 100px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: grid;
+    row-gap: 82px;
+    column-gap: 76px;
+    grid-template-columns: 345px 1fr;
+    grid-template-rows: 20px 70px 70px 140px 200px 244px 155px 350px;
+}
+
+div.main div.photo {
+    grid-row-start: 1;
+    grid-row-end: 5;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+div.main div.contacts {
+    grid-row-start: 4;
+    grid-row-end: 5;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+div.main div.personalInformation {
+    grid-row-start: 5;
+    grid-row-end: 6;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+div.main div.workExpirience {
+    grid-row-start: 5;
+    grid-row-end: 7;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+div.main div.specialization {
+    grid-row-start: 6;
+    grid-row-end: 8;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+div.main div.education {
+    grid-row-start: 7;
+    grid-row-end: 9;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+div.main div.others {
+    grid-row-start: 8;
+    grid-row-end: 9;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+div.main div.personalInformation,
+div.main div.workExpirience,
+div.main div.specialization,
+div.main div.education,
+div.main div.others {
+    border-top: 2px black solid;
+    padding-top: 10px;
+}
+
+div.main div.vacansy,
+div.main div.firstName,
+div.main div.lastName {
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+div.main div.firstName,
+div.main div.lastName {
+    font-size: 62px;
+    font-weight: bold;
+}
+
+div.header {
+    text-transform: uppercase;
+    font-size: 2em;
+    font-weight: bold;
+    padding-bottom: 15px;
+}
+
+div.mainText {
+    font-size: 1.25em;
+}
+
+div.contacts div.mainText em {
+    font-weight: bold;
+}
