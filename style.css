@@ -105,3 +105,7 @@ div.header {
 div.mainText {
     font-size: 1.25em;
 }
+
+div.contacts div.mainText em {
+    font-weight: bold;
+}
