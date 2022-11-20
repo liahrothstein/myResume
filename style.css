@@ -59,14 +59,14 @@ div.main div.specialization {
 }
 
 div.main div.education {
-    grid-row-start: 7;
-    grid-row-end: 9;
+    grid-row-start: 6;
+    grid-row-end: 8;
     grid-column-start: 2;
     grid-column-end: 3;
 }
 
 div.main div.others {
-    grid-row-start: 8;
+    grid-row-start: 7;
     grid-row-end: 9;
     grid-column-start: 1;
     grid-column-end: 2;
@@ -108,4 +108,13 @@ div.mainText {
 
 div.contacts div.mainText em {
     font-weight: bold;
+}
+
+a {
+    color: #2251b2;
+    text-decoration: none;
+}
+
+a:visited {
+    color: gray;
 }
