@@ -118,3 +118,36 @@ a {
 a:visited {
     color: gray;
 }
+
+@media (max-width: 1439px) {
+    div.main {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        width: 72%;
+        column-gap: 0;
+        padding: 5vw;
+    }
+
+    div.main div.firstName,
+    div.main div.lastName {
+        color: #2251b2;
+    }
+}
+
+@media (max-width: 768px) {
+    div.main div.vacansy {
+        color: #2251b2;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 345px) {
+    div.main div.photo img {
+        width: 291px;
+    }
+
+    div.main div.firstName,
+    div.main div.lastName {
+        font-size: 60px;
+    }
+}
