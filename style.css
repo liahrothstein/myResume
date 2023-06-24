@@ -20,7 +20,7 @@ div.main {
     row-gap: 82px;
     column-gap: 76px;
     grid-template-columns: 345px 1fr;
-    grid-template-rows: 20px 70px 70px 180px 220px 244px 155px 40px;
+    grid-template-rows: 20px 70px 70px 200px 300px 244px 155px 40px;
 }
 
 div.main div.photo {
